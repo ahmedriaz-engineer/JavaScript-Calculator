@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body >
+    <h1 class="heading text-center">Calculator</h1>
+    <div id="container">
+        <div class="calculator">
+            <div class="result mx-auto">
+                <div class="history">
+                    <p id="history-value" class="text-right"></p>
+                </div>
+                <div class="output">
+                    <p id="output-value" class="text-right">0</p>
+                </div>
+            </div>
+            <div class="keyboard mx-auto text-center">
+                
+                <button digit id="7" class="button digit btn-success">7</button digit>
+                <button digit id="8" class="button digit btn-success">8</button digit>
+                <button digit id="9" class="button digit btn-success">9</button digit>
+                <button digit id="+" class="button digit function">+</button digit>
+                <br>
+                <button digit id="4" class="button digit btn-success">4</button digit>
+                <button digit id="5" class="button digit btn-success">5</button digit>
+                <button digit id="6" class="button digit btn-success">6</button digit>
+                <button digit id="-" class="button digit function">-</button digit>
+                <br>
+                <button digit id="1" class="button digit btn-success">1</button digit>
+                <button digit id="2" class="button digit btn-success">2</button digit>
+                <button digit id="3" class="button digit btn-success">3</button digit>
+                <button digit id="*" class="button digit function">*</button digit>
+                <br>
+                <button digit id="0" class="button digit btn-success">0</button digit>
+                <button digit id="c" class="button btn-success">c</button digit>
+                <button digit id="/" class="button digit btn-success">/</button digit>
+                <button digit id="=" class="button function">=</button digit>
+            </div> 
+        </div>
+          
+    </div>
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
